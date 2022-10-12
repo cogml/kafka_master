@@ -98,7 +98,7 @@ class PartitionMetadata {
   final int partitionId;
   final int leader;
   final List<dynamic> replicas;
-  final List<int> inSyncReplicas;
+  final List<dynamic> inSyncReplicas;
 
   PartitionMetadata._(this.partitionErrorCode, this.partitionId, this.leader,
       this.replicas, this.inSyncReplicas);
